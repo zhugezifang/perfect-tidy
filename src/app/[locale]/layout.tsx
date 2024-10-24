@@ -34,7 +34,7 @@ export default async function LocaleLayout({
     <head>
     <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-Y65J1475LV`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-374008CDW0`}
     />
     <script
           dangerouslySetInnerHTML={{
@@ -42,7 +42,7 @@ export default async function LocaleLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-Y65J1475LV');
+              gtag('config', 'G-374008CDW0');
             `,
           }}
      />
