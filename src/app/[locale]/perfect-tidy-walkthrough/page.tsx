@@ -1,12 +1,12 @@
 import PageComponent from "./PageComponent";
 import {unstable_setRequestLocale} from 'next-intl/server';
-import {getNavMenu, getIndexLanguageText, getWorksPageLanguageText} from "~/configs/languageText";
+import {getNavMenu, getWalkthroughLanguageText, getWalkthroughQuestionLanguageText} from "~/configs/languageText";
 export const runtime = 'edge';
 export default async function IndexPage({params: {locale = ''}}) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
-  const indexLanguageText = await getIndexLanguageText();
-  const worksText = await getWorksPageLanguageText();
+  const indexLanguageText = await getWalkthroughLanguageText();
+  const questionText = await getWalkthroughQuestionLanguageText();
   const navMenuText = await getNavMenu();
 
   return (
@@ -14,7 +14,7 @@ export default async function IndexPage({params: {locale = ''}}) {
       locale={locale}
       navMenuText={navMenuText}
       indexLanguageText={indexLanguageText}
-      worksText={worksText}
+      questionText={questionText}
     >
 
     </PageComponent>

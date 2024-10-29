@@ -1,6 +1,6 @@
 {
   "NavMenu":{
-    "name2":"Blog","href2":"/"
+    "name2":"Blog","href2":"/perfect-tidy-walkthrough"
   },
   "IndexPage": {
     "lang": "en",
@@ -106,5 +106,35 @@
     "h4_7_p": "We may update these Terms from time to time. We will notify users of any material changes via email.",
     "h4_8": "8、Contact Information:",
     "h4_8_p": "If you have any questions or concerns regarding our Privacy Policy, please contact us at "
+  },
+  "walkthroughPage": {
+    "lang": "en",
+    "language": "English",
+    "languageInChineseSimple": "英语",
+    "title": "Perfect Tidy Walkthrough(攻略)",
+    "description": "Perfect Tidy Walkthrough begins with defining the goal and listing steps in simple, actionable language. Use numbered steps and bold key terms for readability. Visual aids like screenshots can clarify complex parts. Test the guide from a user’s perspective and add troubleshooting tips to enhance usability.",
+    "h1Text": "Perfect Tidy Walkthrough(攻略)",
+    "pDescription": "Perfect Tidy Walkthrough begins with defining the goal and listing steps in simple, actionable language. Use numbered steps and bold key terms for readability. Visual aids like screenshots can clarify complex parts. Test the guide from a user’s perspective and add troubleshooting tips to enhance usability."
+  },
+  "walkthroughQuestion": {
+    "h2_0": "FAQ About Perfect Tidy Walkthrough(攻略)",
+    "h2_1": "What is Perfect Tidy Walkthrough?",
+    "h2_1_p1": "Perfect Tidy Walkthrough is an immersive game that challenges players to navigate through various environments while maintaining a tidy and organized path. It combines elements of puzzle-solving and strategy to provide a unique gaming experience.",
+    "h2_2": "How do I start Perfect Tidy Walkthrough?",
+    "h2_2_p1": "To start Perfect Tidy Walkthrough, you need to download the game from your preferred platform's store, create a user profile, and select the level you want to play. The game offers a tutorial for beginners to understand the basic mechanics.",
+    "h2_3": "What are the main objectives in Perfect Tidy Walkthrough?",
+    "h2_3_p1": "The main objectives are to complete each level by reaching the end point while ensuring that your path is as tidy as possible. This involves picking up litter, organizing items, and avoiding creating messes that could hinder your progress.",
+    
+    "h2_4": "Are there different levels or stages in Perfect Tidy Walkthrough?",
+    "h2_4_p1": "Yes, Perfect Tidy Walkthrough features multiple levels with increasing difficulty. Each level introduces new challenges and environments, such as urban streets, forests, and underwater settings, requiring different strategies to keep things tidy.",
+    
+    "h2_5": "Can I play Perfect Tidy Walkthrough with friends?",
+    "h2_5_p1": "The game offers a multiplayer mode where you can team up with friends or other players online to tackle more complex levels. Cooperation and communication are key to achieving a perfect tidy path in these challenging cooperative levels.",
+
+    "h2_6": "What are the in-game rewards in Perfect Tidy Walkthrough?",
+    "h2_6_p1": "As you progress through the levels, you earn points and rewards that can be used to unlock new characters, costumes, and power-ups. These enhancements can give you an edge in more difficult levels and add a personal touch to your gameplay.",
+
+    "h2_7":"How do I improve my score in Perfect Tidy Walkthrough?",
+    "h2_7_p1":"To improve your score, focus on efficiency and tidiness. The fewer messes you make and the quicker you complete the level, the higher your score will be. Additionally, look for hidden bonuses and complete optional challenges to boost your points."
   }
 }
