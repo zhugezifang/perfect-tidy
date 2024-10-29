@@ -75,10 +75,17 @@ export default function Header({
         <div className="hidden lg:flex lg:gap-x-12">
             <a
               key={navMenuText.name2}
-              href="/"
+              href={navMenuText.href2}
               onClick={() => setShowLoadingModal(true)}
               className="text-sm font-semibold leading-6 text-white ">
               {navMenuText.name2}
+            </a>
+            <a
+              key={navMenuText.name3}
+              href={navMenuText.href3}
+              onClick={() => setShowLoadingModal(true)}
+              className="text-sm font-semibold leading-6 text-white ">
+              {navMenuText.name3}
             </a>
         </div>
         <div className="flex flex-1 justify-end mr-2">

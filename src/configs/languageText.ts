@@ -5,6 +5,8 @@ export const getNavMenu = async () => {
   return {
     name2: navMenuIndex('name2'),
     href2: navMenuIndex('href2'),
+    name3: navMenuIndex('name3'),
+    href3: navMenuIndex('href3'),
   };
 }
 
@@ -29,6 +31,22 @@ export const getWalkthroughLanguageText = async () => {
     description: tIndex('description'),
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
+  };
+}
+
+export const getModApkLanguageText = async () => {
+  const tIndex = await getTranslations('modApkPage');
+  return {
+    title: tIndex('title'),
+    description: tIndex('description'),
+    h1Text: tIndex('h1Text'),
+    pDescription: tIndex('pDescription'),
+    h2_1: tIndex('h2_1'),
+    h2_1_p1: tIndex('h2_1_p1'),
+    h2_2: tIndex('h2_2'),
+    h2_2_p1: tIndex('h2_2_p1'),
+    h2_3: tIndex('h2_3'),
+    h2_3_p1: tIndex('h2_3_p1'),
   };
 }
 
