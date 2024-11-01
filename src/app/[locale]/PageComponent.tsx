@@ -181,6 +181,41 @@ const PageComponent = ({
               </div>
             </section>
 
+            <div className="max-w-4xl mx-auto p-4">
+              <h2 className="text-3xl font-semibold text-center mb-8">{indexLanguageText.img_h2}</h2>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidygame.com/assets/images/perfect-tidy-006.webp" alt="Perfect Tidy Image 1" className="w-full h-auto object-cover"/>
+                </div>
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidygame.com/assets/images/perfect-tidy-002.webp" alt="Perfect Tidy Image 2" className="w-full h-auto object-cover"/>
+                </div>
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidygame.com/assets/images/perfect-tidy-001.webp" alt="Perfect Tidy Image 3" className="w-full h-auto object-cover"/>
+                </div>
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidygame.com/assets/images/perfect-tidy-005.webp" alt="Perfect Tidy Image 4" className="w-full h-auto object-cover"/>
+                </div>
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidy.online/_next/image?url=%2Fimages%2Fperfect-tidy-carousel-1.webp&w=640&q=75" alt="Perfect Tidy Image 5" className="w-full h-auto object-cover"/>
+                </div>
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidy.online/_next/image?url=%2Fimages%2Fperfect-tidy-carousel-13.webp&w=640&q=75" alt="Perfect Tidy Image 6" className="w-full h-auto object-cover"/>
+                </div>
+
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidy.online/_next/image?url=%2Fimages%2Fperfect-tidy-carousel-16.webp&w=640&q=75" alt="Gallery Image" className="w-full h-auto object-cover"/>
+                </div>
+
+                <div className="overflow-hidden rounded-lg shadow-lg">
+                  <img src="https://perfecttidy.online/_next/image?url=%2Fimages%2Fperfect-tidy-carousel-9.webp&w=640&q=75" alt="Gallery Image" className="w-full h-auto object-cover"/>
+                </div>
+
+                
+              </div>
+            </div>
+
             <section id="perfecttidylevel" className="bg-indigo-100 py-12">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">Perfect Tidy Walkthrough Levels Video</h2>

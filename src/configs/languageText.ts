@@ -17,10 +17,7 @@ export const getIndexLanguageText = async () => {
     description: tIndex('description'),
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
-    btn1: tIndex('btn1'),
-    btn2: tIndex('btn2'),
-    RowText:tIndex('RowText'),
-    ColText:tIndex('ColText')
+    img_h2: tIndex('img_h2'),
   };
 }
 
