@@ -57,21 +57,21 @@ const PageComponent = ({
                     <div className="relative my-3 w-full rounded-md px-6 py-8">
                       <div className="max-w-full">
                         <h3 className="text-xl font-bold text-black mb-4">{indexLanguageText.h2_1}</h3>
-                        <p className="font-inter text-base font-light text-gray-500 text-justify">{indexLanguageText.h2_1_p1}<a href="https://apps.apple.com/us/app/perfect-tidy/id6689516283" className="text-balck font-bold" target="_blank">ios apk download</a></p>
+                        <p className="font-inter text-base font-light text-gray-500 text-justify">{indexLanguageText.h2_1_p1}<a href="https://apps.apple.com/us/app/perfect-tidy/id6689516283" className="text-blue-600 font-bold" target="_blank">ios apk download</a></p>
                       </div>
                     </div>
                     <div className="mr-4 ml-8 border border-gray-200"></div>
                     <div className="relative my-3 w-full rounded-md px-6 py-8">
                       <div className="max-w-full">
                         <h3 className="text-xl font-bold text-black mb-4">{indexLanguageText.h2_2}</h3>
-                        <p className="font-inter text-base font-light text-gray-500 text-justify">{indexLanguageText.h2_2_p1}<a href="https://play.google.com/store/apps/details?id=com.abi.perfect.tidy&hl=en&pli=1" className="text-balck font-bold" target="_blank">android apk download</a></p>
+                        <p className="font-inter text-base font-light text-gray-500 text-justify">{indexLanguageText.h2_2_p1}<a href="https://play.google.com/store/apps/details?id=com.abi.perfect.tidy&hl=en&pli=1" className="text-blue-600 font-bold" target="_blank">android apk download</a></p>
                       </div>
                     </div>
                     <div className="mr-4 ml-8 border border-gray-200"></div>
                     <div className="relative my-3 w-full rounded-md px-6 py-8">
                       <div className="max-w-full">
                         <h3 className="text-xl font-bold text-black mb-4">{indexLanguageText.h2_3}</h3>
-                        <p className="font-inter text-base font-light text-gray-500 text-justify">{indexLanguageText.h2_3_p1}<a href="https://perfect-tidy.online/" className="text-balck font-bold" target="_blank">perfect tidy online</a></p>
+                        <p className="font-inter text-base font-light text-gray-500 text-justify">{indexLanguageText.h2_3_p1}<a href="https://perfect-tidy.online/" className="text-blue-600 font-bold" target="_blank">perfect tidy online</a></p>
                       </div>
                     </div>
                     <div className="mr-4 ml-8 border border-gray-200"></div>
