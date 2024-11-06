@@ -18,6 +18,8 @@ export const getIndexLanguageText = async () => {
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
     img_h2: tIndex('img_h2'),
+    level_h2:tIndex('level_h2'),
+    more_level:tIndex('more_level')
   };
 }
 
