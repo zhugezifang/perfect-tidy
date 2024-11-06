@@ -36,7 +36,7 @@ const PageComponent = ({
         locale={locale}
         page={"/perfect-tidy-mod-apk"}
       />
-      <Header locale={locale} navMenuText={navMenuText} page={"works"} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} navMenuText={navMenuText} page={"perfect-tidy-mod-apk"} indexLanguageText={indexLanguageText}/>
       <div className={"my-auto"}>
         <div className="block overflow-hidden bg-cover bg-center"
              style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>

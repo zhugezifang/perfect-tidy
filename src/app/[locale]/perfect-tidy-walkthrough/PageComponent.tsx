@@ -36,7 +36,7 @@ const PageComponent = ({
         locale={locale}
         page={"/perfect-tidy-mod-apk"}
       />
-      <Header locale={locale} navMenuText={navMenuText} page={"works"} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} navMenuText={navMenuText} page={"perfect-tidy-mod-apk"} indexLanguageText={indexLanguageText}/>
       <div className={"my-auto"}>
         <div className="block overflow-hidden bg-cover bg-center"
              style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>
@@ -55,7 +55,7 @@ const PageComponent = ({
 
             <section id="perfecttidylevel" className="bg-indigo-100 py-12">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">Perfect Tidy Levels</h2>
+                <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">{indexLanguageText.h1Text}</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
                   <div className="bg-white p-2 rounded-lg shadow-md text-center">
                     <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level

@@ -30,6 +30,7 @@ export const getWalkthroughLanguageText = async () => {
     description: tIndex('description'),
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
+    level_h2:tIndex('level_h2')
   };
 }
 

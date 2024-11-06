@@ -114,7 +114,8 @@
     "title": "Perfect Tidy Walkthrough(攻略)",
     "description": "Perfect Tidy Walkthrough begins with defining the goal and listing steps in simple, actionable language. Use numbered steps and bold key terms for readability. Visual aids like screenshots can clarify complex parts. Test the guide from a user’s perspective and add troubleshooting tips to enhance usability.",
     "h1Text": "Perfect Tidy Walkthrough(攻略)",
-    "pDescription": "Perfect Tidy Walkthrough begins with defining the goal and listing steps in simple, actionable language. Use numbered steps and bold key terms for readability. Visual aids like screenshots can clarify complex parts. Test the guide from a user’s perspective and add troubleshooting tips to enhance usability."
+    "pDescription": "Perfect Tidy Walkthrough begins with defining the goal and listing steps in simple, actionable language. Use numbered steps and bold key terms for readability. Visual aids like screenshots can clarify complex parts. Test the guide from a user’s perspective and add troubleshooting tips to enhance usability.",
+    "level_h2":"Perfect Tidy Levels"
   },
   "walkthroughQuestion": {
     "h2_0": "FAQ About Perfect Tidy Walkthrough(攻略)",
