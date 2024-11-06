@@ -73,16 +73,17 @@ export default function Header({
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
+          
             <a
               key={navMenuText.name2}
-              href={navMenuText.href2}
+              href={`/${locale}${navMenuText.href2}`}
               onClick={() => setShowLoadingModal(true)}
               className="text-sm font-semibold leading-6 text-white ">
               {navMenuText.name2}
             </a>
             <a
               key={navMenuText.name3}
-              href={navMenuText.href3}
+              href={`/${locale}${navMenuText.href3}`}
               onClick={() => setShowLoadingModal(true)}
               className="text-sm font-semibold leading-6 text-white ">
               {navMenuText.name3}

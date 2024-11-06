@@ -218,7 +218,7 @@ const PageComponent = ({
 
             <section id="perfecttidylevel" className="bg-indigo-100 py-12">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">Perfect Tidy Walkthrough Levels Video</h2>
+                <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">{indexLanguageText.level_h2}</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
                   <div className="bg-white p-2 rounded-lg shadow-md text-center">
                     <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
@@ -240,7 +240,7 @@ const PageComponent = ({
                       6</p></div>
                 </div>
                 <div className="text-center mt-8">
-                  <a className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-indigo-700 transition duration-300" href="/perfect-tidy-walkthrough">More Walkthrough Videos
+                  <a className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-indigo-700 transition duration-300" href={`/${locale}/perfect-tidy-walkthrough`}>{indexLanguageText.more_level}
                   <span className="font-bold text-yellow-300">Lever 1 to 115</span></a>
                 </div>
               </div>
