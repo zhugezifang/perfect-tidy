@@ -28,7 +28,7 @@ export default function Footer({
                 src="/favicon.svg"
                 width={32}
                 height={32}
-                alt="Image Splitter"
+                alt="Perfect Tidy"
               />
             </a>
             <p className="text-sm text-white">
