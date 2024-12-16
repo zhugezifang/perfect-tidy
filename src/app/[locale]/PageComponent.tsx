@@ -151,6 +151,12 @@ const PageComponent = ({
                       <img src="combinations-game.jpg" alt="combinations game" className="object-cover w-full h-full"/></div>
                     <p className="mt-2 text-sm">combinations game</p></div>
                 </a>
+                <a href="https://8090-game.online/en/game/supermario-online" target='_blank'>
+                  <div className="text-center">
+                    <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
+                      <img src="https://8090-game.online/images/supermario.png" alt="supermario game" className="object-cover w-full h-full"/></div>
+                    <p className="mt-2 text-sm">super mario game</p></div>
+                </a>
               </div>
             </div>
                         
