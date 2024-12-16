@@ -133,6 +133,28 @@ const PageComponent = ({
                 <ImageSplitter locale={locale} indexLanguageText={indexLanguageText}/>
             </div>
 
+            <div className="container py-10 px-4">
+              <div className="flex items-center justify-between mb-6">
+                <h1 className="text-3xl font-bold">hot game</h1>
+                <a href="#" className="text-sm text-blue-500 hover:underline">
+                  </a></div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
+                <a href="https://disasterarena.online/" target='_blank'>
+                  <div className="text-center">
+                    <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
+                      <img src="images/kovsh103.png" alt="Disaster Arena" className="object-cover w-full h-full"/></div>
+                    <p className="mt-2 text-sm">Disaster Arena</p></div>
+                </a>
+                <a href="https://combinations-game.online/" target='_blank'>
+                  <div className="text-center">
+                    <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
+                      <img src="combinations-game.jpg" alt="combinations game" className="object-cover w-full h-full"/></div>
+                    <p className="mt-2 text-sm">combinations game</p></div>
+                </a>
+              </div>
+            </div>
+                        
+
             <section id="how-it-works" className="py-16 bg-gray-50">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">{indexPlayInfoText.h2_0}</h2>
