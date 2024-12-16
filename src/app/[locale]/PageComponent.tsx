@@ -133,9 +133,9 @@ const PageComponent = ({
                 <ImageSplitter locale={locale} indexLanguageText={indexLanguageText}/>
             </div>
 
-            <div className="container py-10 px-4">
+            <div className="py-10 px-6">
               <div className="flex items-center justify-between mb-6">
-                <h1 className="text-3xl font-bold">hot game</h1>
+                <span className="text-3xl font-bold">Hot Game</span>
                 <a href="#" className="text-sm text-blue-500 hover:underline">
                   </a></div>
               <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
