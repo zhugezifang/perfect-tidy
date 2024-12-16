@@ -142,7 +142,7 @@ const PageComponent = ({
                 <a href="https://disasterarena.online/" target='_blank'>
                   <div className="text-center">
                     <div className="relative w-full h-32 bg-black rounded-lg overflow-hidden">
-                      <img src="images/kovsh103.png" alt="Disaster Arena" className="object-cover w-full h-full"/></div>
+                      <img src="disasterarena.jpg" alt="Disaster Arena" className="object-cover w-full h-full"/></div>
                     <p className="mt-2 text-sm">Disaster Arena</p></div>
                 </a>
                 <a href="https://combinations-game.online/" target='_blank'>
