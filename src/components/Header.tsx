@@ -89,14 +89,6 @@ export default function Header({
               {navMenuText.name3}
             </a>
         </div>
-        <div className="flex flex-1 justify-end mr-2">
-          {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} target='_blank' className="text-gray-500 hover:text-gray-400">
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true"/>
-            </a>
-          ))}
-        </div>
         <Menu as="div" className="relative inline-block text-left">
           <div>
             <Menu.Button
